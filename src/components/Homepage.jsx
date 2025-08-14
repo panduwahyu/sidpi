@@ -11,12 +11,11 @@ const Homepage = () => {
           <div className="header-content">
             <div className="logo-section">
               <div className="bps-logo">
-                <div className="logo-shapes">
-                  <div className="shape blue"></div>
-                  <div className="shape orange"></div>
-                  <div className="shape green"></div>
-                  <div className="orbit"></div>
-                </div>
+                <img 
+                  src="/GKL3_Badan Pusat Statistik (BPS) - Koleksilogo.com.png" 
+                  alt="BPS Logo" 
+                  className="logo-image"
+                />
               </div>
               <div className="title-section">
                 <h1>Badan Pusat Statistik</h1>
