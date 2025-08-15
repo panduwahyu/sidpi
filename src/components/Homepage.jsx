@@ -38,7 +38,7 @@ const Homepage = () => {
               Jelajahi data di balik salah satu indikator ekonomi terpenting dan 
               dampaknya terhadap masyarakat.
             </p>
-            <Link to="/stories" className="cta-btn">
+            <Link to="/data-storytelling" className="cta-btn">
               Mulai Menjelajah
             </Link>
           </div>

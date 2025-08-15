@@ -9,6 +9,7 @@ import AdminDashboard from './components/admin/AdminDashboard';
 import StoriesList from './components/StoriesList';
 import StoryDetail from './components/StoryDetail';
 import StoryEditor from './components/admin/StoryEditor';
+import DataStorytellingPage from './components/DataStorytellingPage';
 
 // Global CSS
 import './App.css';
@@ -22,6 +23,7 @@ function App() {
           <Route path="/" element={<Homepage />} />
           <Route path="/stories" element={<StoriesList />} />
           <Route path="/stories/:slug" element={<StoryDetail />} />
+          <Route path="/data-storytelling" element={<DataStorytellingPage />} />
           
           {/* Admin Routes - Direct Access */}
           <Route path="/admin/login" element={<AdminLogin />} />
