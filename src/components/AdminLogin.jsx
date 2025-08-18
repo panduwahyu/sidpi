@@ -34,7 +34,7 @@ const AdminLogin = () => {
         <div className="login-card">
           <h2>Login Pengguna</h2>
           
-          {/* Info untuk demo
+          
           <div style={{ 
             background: '#e6f3ff', 
             padding: '15px', 
@@ -44,7 +44,7 @@ const AdminLogin = () => {
           }}>
             <strong>Demo Mode</strong><br/>
             <small>Masukkan email/password apa saja untuk masuk ke dashboard</small>
-          </div> */}
+          </div>
           
           <form onSubmit={handleSubmit}>
             <div className="form-group">
